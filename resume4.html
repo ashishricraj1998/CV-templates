@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume1</title>
+    <!-- head1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap" rel="stylesheet">
+    <!-- conthead -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Lato&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+
+
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/81538f491f.js" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <!-- head1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <!-- cont1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Exo&display=swap" rel="stylesheet">
+    <!-- conthead and datehead -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Exo&family=Play&display=swap"
+        rel="stylesheet">
+    <!-- heading name -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- contracts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Domine:wght@700&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <style>
+        .contmatter {
+            color: #56430e;
+            font-size: 15px;
+            font-family: 'Bree Serif', serif;
+            font-family: 'Exo', sans-serif;
+        }
+
+        .datehead {
+            float: right;
+            font-size: 18px;
+            font-family: 'Bree Serif', serif;
+            font-family: 'Exo', sans-serif;
+            font-family: 'Play', sans-serif;
+            color: #56430e;
+            font-weight: 3000;
+        }
+
+        .conthead {
+            font-size: 18px;
+            color: #56430e;
+            font-family: 'Bree Serif', serif;
+            font-family: 'Exo', sans-serif;
+            font-family: 'Play', sans-serif;
+            font-weight: 3000;
+
+        }
+
+
+
+        .par {
+            margin-top: 0px;
+            padding: 0px;
+        }
+
+        .certlist {
+            /* border: 3px solid red; */
+            font-size: 15px;
+            font-family: 'Bree Serif', serif;
+            font-family: 'Exo', sans-serif;
+            font-weight: 600;
+            margin-bottom: 17px;
+        }
+
+        .awardlist {
+            /* border: 3px solid red; */
+        }
+
+        .reflist {
+            /* border: 3px solid red; */
+            font-family: 'Bree Serif', serif;
+            font-family: 'Exo', sans-serif;
+            list-style: none;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+
+
+        .head1 {
+            /* border: 3px solid green; */
+            /* color: #4a094a;
+
+            font-weight: bold;
+            font-size: 154%;
+            font-family: 'Bree Serif', serif;
+            padding-bottom: 5px;
+            padding-top: 11px;
+            margin-left: 9px; */
+            /* margin-bottom: 2px; */
+            height: 1px;
+            border-bottom: 2px solid #56430e;
+            /* text-decoration: overline; */
+
+        }
+
+        .cont1 {
+            margin: 0;
+            /* border: 3px solid rgb(177, 19, 46); */
+            /* color: #444444; */
+            font-size: 14px;
+            color: #56430e;
+            font-weight: 600;
+            font-family: 'Bree Serif', serif;
+            font-family: 'Exo', sans-serif;
+
+            margin-left: 15px;
+            padding-top: 26px;
+            margin-bottom: 17px;
+        }
+
+
+
+
+
+        header {
+            margin: auto;
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+
+
+        .content {
+            margin-left: 10px;
+            padding-right: 30px;
+            border: 3px solid #fcefc9;
+            border-bottom: 10px solid #fcefc9;
+            border-right: 10px solid #fcefc9;
+        }
+
+
+        .obj {
+            margin: 15px;
+            /* border: 3px solid blue; */
+        }
+
+        .bar {
+            margin: 15px;
+            /* border: 3px solid green; */
+        }
+
+
+        /* sdfghjkl */
+
+        #img1 {
+            margin: 15px;
+            /* border: 3px solid rgb(177, 19, 46); */
+            width: 30px;
+            vertical-align: middle;
+            /* position: relative; */
+
+        }
+
+
+
+
+        .edu {
+            margin: 15px;
+            /* border: 3px solid rgb(184, 145, 17); */
+        }
+
+
+
+        .edumat {
+            margin: 15px;
+            /* border: 3px solid rgb(42, 52, 192); */
+            /* display: inline-block; */
+        }
+
+
+        .workexp {
+            margin: 15px;
+            /* border: 3px solid black; */
+        }
+
+        .workhead {
+            margin: 15px;
+            /* border: 3px solid black; */
+
+            display: inline-block;
+
+        }
+
+
+        .contmat {
+            margin: 15px;
+            /* border: 3px solid rgb(42, 52, 192); */
+            /* display: inline-block; */
+        }
+
+
+        .worklist {
+            margin: 15px;
+            /* border: 3px solid rgb(177, 19, 46); */
+        }
+
+        .imgg {
+            position: relative;
+            margin-left: -10px;
+        }
+
+        /* .imgg::after{
+            content: "";
+            display: block;
+            width: 422px;
+            height: 2px;
+            background: #7c7a79;
+            position: absolute;
+            left: 112%;
+            top: 50%;
+
+        }
+
+        #imgwrk::after{
+            content: "";
+            display: block;
+            width: 346px;
+            height: 2px;
+            background: #7c7a79;
+            position: absolute;
+            left: 112%;
+            top: 50%;
+
+        }
+
+        #imgref::after{
+            content: "";
+            display: block;
+            width: 410px;
+            height: 2px;
+            background: #7c7a79;
+            position: absolute;
+            left: 112%;
+            top: 50%;
+
+        }
+
+        #imgcert::after{
+            content: "";
+            display: block;
+            width: 385px;
+            height: 2px;
+            background: #7c7a79;
+            position: absolute;
+            left: 112%;
+            top: 50%;
+        } */
+
+
+
+        .obj,
+        .edu,
+        .workexp,
+        .act,
+        .certification {
+            margin: 0;
+        }
+
+        .cont1 p {
+            margin-bottom: 3px;
+            margin-top: 0;
+        }
+
+        .actlist,
+        .reflist,
+        .certlist,
+        .worklist {
+            margin-left: -15px;
+        }
+
+
+
+        * {
+            /* border:3px solid black; */
+        }
+    </style>
+
+
+
+    <style>
+        .outercontent {
+            /* border: 3px dashed rgb(23, 219, 209); */
+            display: flex;
+            margin: 10px;
+
+        }
+
+        .vertical {
+            border-right: 3px solid #56430e;
+            /* border: 3px solid purple; */
+            width: 19%;
+            padding-left: 0;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            /* align-items:center; */
+            /* justify-content: space-between; */
+        }
+
+        .content {
+            border: 3px solid ffdcff;
+            background: #fff3d0;
+            border-radius: 10px;
+
+            width: 80%;
+        }
+
+
+
+
+
+
+
+
+        .heading {
+
+            /* border: 3px solid #440944; */
+            color: white;
+            background-color: #56430e;
+            height: 305px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+
+        }
+
+
+
+
+        .headmatter {
+
+            /* border: 3px dashed rgb(7, 7, 126); */
+            width: 720px;
+            padding-left: 15px;
+            background: #56430e;
+
+        }
+
+        .profilephoto {
+            padding-right: 10px;
+        }
+
+
+        #imgprofile {
+            /* padding-left: 50px; */
+            border: 3px solid #56430e;
+            width: 294px;
+            border-radius: 100%;
+        }
+
+        #certlist1 {
+            padding-left: 50px;
+        }
+
+
+
+        .head11 {
+            /* border: 1px solid black; */
+            font-weight: bold;
+            color: #56430e;
+            font-size: 150%;
+            font-family: 'Sawarabi Mincho', sans-serif;
+            text-decoration:underline;
+            text-align: center;
+        }
+
+        #headobj11 {
+
+            /* border: 1px solid black; */
+            padding-top: 18px;
+            
+        }
+
+        #headobj12 {
+
+            /* border: 1px solid black; */
+            padding-top: 58px;
+        }
+
+        #headobj13 {
+
+            /* border: 1px solid black; */
+            padding-top: 98px;
+        }
+
+        #headobj14 {
+
+            /* border: 1px solid black; */
+            padding-top: 257px;
+        }
+
+        #headobj15 {
+
+            /* border: 1px solid black; */
+            padding-top: 99px;
+        }
+
+        #headobj16 {
+
+            /* border: 1px solid black; */
+            padding-top: 48px;
+        }
+
+
+        .upper {
+            /* border:3px solid green; */
+            color: white;
+            font-size: 80px;
+            font-family: 'Abril Fatface', cursive;
+        }
+
+        .lower {
+            color: white;
+            list-style: none;
+            padding-left: 20px;
+            /* border:3px solid blue; */
+            display: flex;
+            height: 180px;
+            font-family: 'Acme', sans-serif;
+            font-family: 'Domine', serif;
+            font-family: 'Russo One', sans-serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        #lower1 {
+            /* border:2px solid red; */
+        }
+
+        #lower2 {
+            /* border:2px solid red; */
+        }
+
+        #lower3 {
+            /* border:2px solid red; */
+        }
+
+        #lower4 {
+            /* border:2px solid red; */
+        }
+
+
+        
+
+
+
+
+
+
+
+
+
+        * {
+            /* border: 3px solid black; */
+        }
+    </style>
+
+
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <!-- <title></title> -->
+        <div class="heading">
+
+
+            <div class="profilephoto">
+                <img src="https://www.alps-velos.ch/wp-content/uploads/2016/11/man.jpeg" alt="personal photo"
+                    id="imgprofile">
+
+            </div>
+
+            <div class="headmatter">
+
+                <div class="upper">
+                    LEON CENA
+                </div>
+                <ul class="lower">
+
+                    <li class="lowerc" id="lower1">Email : leon@gmail.com</li>
+                    <li class="lowerc" id="lower2">Phone : 256-895-564</li>
+                    <li class="lowerc" id="lower3">Address : 567 Street, Berlin</li>
+                    <li class="lowerc" id="lower4">Website : leonacc.com</li>
+
+
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="outercontent">
+
+            <div class="vertical">
+
+                <div class="head11" id="headobj11">
+                    Obejctive
+                </div>
+
+
+                <div class="head11" id="headobj12">
+                    Education
+                </div>
+
+                <div class="head11" id="headobj13">
+                    Work Experience
+                </div>
+
+                <div class="head11" id="headobj14">
+                    Activities
+                </div>
+
+                <div class="head11" id="headobj15">
+                    Certification
+                </div>
+
+                <div class="head11" id="headobj16">
+                    References
+                </div>
+
+
+                <!-- verivcal -->
+            </div>
+
+
+            <!-- content -->
+
+            <div class="content">
+                <div class="obj">
+                    <div class="head1" id="headobj1">
+
+                    </div>
+
+                    <div class="cont1">
+                        <p>Take advantage of the sales skills & experience and understanding of tyres market to become a
+                            professionalSales staff and bring a lot values to the customers.From that i will contribute
+                            to
+                            the development of your company</p>
+                    </div>
+
+                </div>
+
+                <div class="edu">
+                    <div class="head1">
+
+
+
+                    </div>
+
+                    <div class="cont1">
+                        <span class="conthead">FOREIGN TRADE UNIVERSITY</span>
+                        <span class="datehead">SEP 2005 - JUNE 2015</span>
+
+                        <div class="contmatter">
+                            <p class="par">Major: Economics and International Business</p><br>
+
+                            <p>GPA: 7.34/10</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="workexp">
+
+                    <div class="head1">
+
+
+                    </div>
+
+                    <div class="cont1">
+                        <span class="conthead">UHE TRADING COMPANY</span>
+                        <span class="datehead">MAY 2011 - NOW</span>
+
+                        <div class="contmatter">
+                            <p class="par">Sales Executive</p>
+                            <ul class="worklist">
+                                <li>Manage a retailshop in NeyOm province</li>
+                                <li>Attended tyres exhibitions,conferenced and meetings with supervisors</li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="cont1">
+                        <span class="conthead">CULTUREIMEX BRANCH</span>
+                        <span class="datehead">APRIL 2010 - APRIL 2011</span>
+
+                        <div class="contmatter">
+                            <p class="par">Meeting Executive</p>
+                            <ul class="worklist">
+                                <li>Customer care and look for new customers</li>
+                                <li>Do marketing promotions for the image of the company</li>
+                                <li>Implementing the signed contracts</li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <div class="act">
+
+                    <div class="head1">
+
+                    </div>
+
+                    <div class="cont1">
+                        <span class="conthead">VOLUNTEERING</span>
+                        <span class="datehead">JUNE 2008 - MARCH 2009</span>
+
+                        <div class="contmatter">
+                            <p class="par">New York</p>
+                            <ul class="actlist">
+                                <li>belief volunteering group:Take care of and teach culture for homeless children</li>
+                                <li>ACycling for environment (COE): Cycling in every sunday moring in every week</li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- checkpoint -->
+                </div>
+
+                <div class="certification">
+                    <div class="head1">
+
+                    </div>
+                    <ul class="certlist" id="certlist1">
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor Lorem ipsum dolor sit amet. .
+                        </li>
+                        <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cumque.</li>
+                    </ul>
+
+
+
+
+                </div>
+
+
+
+                <div class="ref">
+                    <div class="head1">
+
+                    </div>
+
+
+                    <ul class="reflist">
+                        <li>Ms C.Smith</li>
+                        <li>Vice Director ofCulturimex Branch</li>
+                        <li>Adress : 769 Elk Roadlittle,Tucson,AZ85705</li>
+                        <li>Email : TyconeCSmith@teleworm.org</li>
+                        <li>Mobile : 520-248-963</li>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- content    -->
+
+
+
+            <!-- outercontent -->
+        </div>
+
+
+        \
+
+
+    </header>
+
+</body>
+
+</html>
